@@ -92,10 +92,14 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-html, body, div {
+html {
+    background: #000;
+}
+body, div {
     color: #FFF;
     background: none;
     font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.0em;
 }
 h1, h2, h3, h4 {
     font-family: "omnes-pro", sans-serif;
@@ -146,7 +150,17 @@ div#container {
 }
 div.section {
     padding: 15px;
-    text-align: center;
+    text-align: left;
+    font-size: 0.8em;
+}
+#about {
+    background: rgb(0, 0, 0);
+    /* RGBa with 0.6 opacity */
+    background: rgba(0, 0, 0, 0.8);
+    /* For IE 5.5 - 7*/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
 }
 
 
