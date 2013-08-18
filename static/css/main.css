@@ -113,6 +113,9 @@ h4 {
     line-height: 1.0em;
     color: #9900FF;
 }
+.center {
+    text-align: center;
+}
 div#container {
     background: none;
     padding: 0px;
