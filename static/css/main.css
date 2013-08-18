@@ -93,44 +93,61 @@ textarea {
    Author's custom styles
    ========================================================================== */
 html, body, div {
-    color: #fff;
+    color: #FFF;
     background: none;
+    font-family: Helvetica, Arial, sans-serif;
 }
-
-body {
-    font-family: "alternate-gothic-no-2-d", sans-serif;
+h1, h2, h3, h4 {
+    font-family: "omnes-pro", sans-serif;
+    font-weight: normal;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
 }
-h1 {
-    font-size: 4.0em;
-}
-h2 {
-    font-size: 1.5em;
+h4 {
+    font-size: 1.1em;
     line-height: 1.0em;
-    opacity: 0.8;
+    color: #9900FF;
 }
 div#container {
     background: none;
-    width: 900px;
-    margin: 0px auto;
-    text-align: center;
+    padding: 0px;
 }
-img#phone {
-    width: 300px;
-    margin: 0px auto;
+#heading {
+    /* Fallback for web browsers that doesn't support RGBa */
+    background: rgb(0, 0, 0);
+    /* RGBa with 0.6 opacity */
+    background: rgba(0, 0, 0, 0.6);
+    /* For IE 5.5 - 7*/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+
+    text-align: center;
+    min-height: 200px;
+    margin-top: 150px;
 }
 #video_background {
     position: absolute;
-    bottom: 0px;
+    top: 0px;
     right: 0px;
     min-width: 100%;
-    min-height: 100%;
+    height: 600px;
     width: auto;
     height: auto;
     z-index: -1000;
     overflow: hidden;
 }
-
-
+#logistics {
+    margin: 90px 0px;
+}
+#banner {
+    background: #000;
+}
+div.section {
+    padding: 15px;
+    text-align: center;
+}
 
 
 
