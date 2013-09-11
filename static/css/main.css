@@ -92,10 +92,7 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-html {
-    background: #000;
-}
-body, div {
+body {
     color: #FFF;
     background: none;
     font-family: Helvetica, Arial, sans-serif;
@@ -107,6 +104,7 @@ h1, h2, h3, h4 {
     text-align: center;
     padding: 0px;
     margin: 0px;
+    background: none;
 }
 h4 {
     font-size: 1.1em;
@@ -157,13 +155,37 @@ div.section {
     font-size: 0.8em;
 }
 #about {
+    background: #000;
+}
+.highlight {
+    color: #9900FF;
+}
+.black {
+    color: #000;
+}
+.red {
+    color: red;
+}
+.transbackground {
+    /* Fallback for web browsers that doesn't support RGBa */
     background: rgb(0, 0, 0);
     /* RGBa with 0.6 opacity */
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.6);
     /* For IE 5.5 - 7*/
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
     /* For IE 8*/
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
+#theme {
+    padding: 50px 0px;
+    background: url('/static/img/crowd.png') repeat scroll center;
+    background-size: 100%;
+    color: #333;
+}
+div#tisch {
+    padding: 50px 0px;
+    background: url('/static/img/tisch.png') no-repeat fixed center;
+    background-size: 100%;
 }
 
 
