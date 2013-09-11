@@ -184,7 +184,7 @@ div.section {
 }
 div#tisch {
     padding: 50px 0px;
-    background: url('/static/img/tisch.png') no-repeat fixed center;
+    background: url('/static/img/tisch.jpg') no-repeat fixed center;
     background-size: 100%;
 }
 
