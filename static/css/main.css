@@ -117,6 +117,7 @@ h4 {
 div#container {
     background: none;
     padding: 0px;
+    padding-bottom: 150px;
 }
 #heading {
     /* Fallback for web browsers that doesn't support RGBa */
@@ -166,6 +167,7 @@ div.section {
 .red {
     color: red;
 }
+.center { text-align: center; }
 .transbackground {
     /* Fallback for web browsers that doesn't support RGBa */
     background: rgb(0, 0, 0);
@@ -181,6 +183,21 @@ div.section {
     background: url('/static/img/crowd.png') repeat scroll center;
     background-size: 100%;
     color: #333;
+}
+#sponsors {
+    padding: 25px 0px;
+}
+#sponsors .row-fluid {
+    padding: 15px 0px;
+}
+#sponsors h3 {
+    color: #9900FF;
+}
+div.logo_container {
+    text-align: center;
+}
+img.logo {
+    width: 200px;
 }
 div#tisch {
     padding: 50px 0px;
